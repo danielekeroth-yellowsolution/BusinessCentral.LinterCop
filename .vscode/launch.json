@@ -9,7 +9,7 @@
             "type": "coreclr",
             "request": "attach",
             "preLaunchTask": "build",
-            "processName": "Microsoft.Dynamics.Nav.EditorServices.Host.exe"
+            "processName": "Microsoft.Dynamics.Nav.EditorServices.Host"
         },
         {
             "name": "Debug Codespace",

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AnalyzerPrefix" xml:space="preserve">
-    <value>LC</value>
+    <value>YS</value>
   </data>
   <data name="Rule0000ErrorInRuleDecription" xml:space="preserve">
     <value>There was an error in a Linter Rule</value>
@@ -902,5 +902,23 @@
   </data>
   <data name="Rule0087UseIsNullGuidDescription" xml:space="preserve">
     <value>When checking if a GUID is empty, avoid using direct comparisons such as MyGuid = '', as this will result in a runtime error due to the invalid GUID format. Instead, use the IsNullGuid() method to perform the check safely and correctly.</value>
+  </data>
+    <data name="Rule0088DocumentationCommentRequiredForNavTypesDescription" xml:space="preserve">
+    <value>Documentation comment missing.</value>
+  </data>
+  <data name="Rule0088DocumentationCommentRequiredForNavTypesFormat" xml:space="preserve">
+    <value>Documentation comment missing.</value>
+  </data>
+  <data name="Rule0088DocumentationCommentRequiredForNavTypesTitle" xml:space="preserve">
+    <value>Documentation comment missing.</value>
+  </data>
+    <data name="Rule0089EventSubscriberTooLargeDescription" xml:space="preserve">
+    <value>EventSubscriber logic is too complex. Consider moving into Codeunit.</value>
+  </data>
+  <data name="Rule0089EventSubscriberTooLargeFormat" xml:space="preserve">
+    <value>EventSubscriber logic is too complex. Consider moving into Codeunit.</value>
+  </data>
+  <data name="Rule0089EventSubscriberTooLargeTitle" xml:space="preserve">
+    <value>EventSubscriber logic is too complex. Consider moving into Codeunit.</value>
   </data>
 </root>

@@ -894,4 +894,24 @@ public static class DiagnosticDescriptors
         isEnabledByDefault: true,
         description: LinterCopAnalyzers.GetLocalizableString("Rule0087UseIsNullGuidDescription"),
         helpLinkUri: "https://github.com/StefanMaron/BusinessCentral.LinterCop/wiki/LC0087");
+
+    public static readonly DiagnosticDescriptor Rule0088DocumentationCommentRequiredForNavTypes = new(
+        id: LinterCopAnalyzers.AnalyzerPrefix + "0088",
+        title: LinterCopAnalyzers.GetLocalizableString("Rule0088DocumentationCommentRequiredForNavTypesTitle"),
+        messageFormat: LinterCopAnalyzers.GetLocalizableString("Rule0088DocumentationCommentRequiredForNavTypesFormat"),
+        category: "Design",
+        defaultSeverity: DiagnosticSeverity.Warning,
+        isEnabledByDefault: true,
+        description: LinterCopAnalyzers.GetLocalizableString("Rule0088DocumentationCommentRequiredForNavTypesDescription"),
+        helpLinkUri: "https://github.com/danielekeroth-yellowsolution/BusinessCentral.LinterCop/wiki/YS0088");
+
+    public static readonly DiagnosticDescriptor Rule0089EventSubscriberTooLarge = new(
+        id: LinterCopAnalyzers.AnalyzerPrefix + "0088",
+        title: LinterCopAnalyzers.GetLocalizableString("Rule0089EventSubscriberTooLargeTitle"),
+        messageFormat: LinterCopAnalyzers.GetLocalizableString("Rule0089EventSubscriberTooLargeFormat"),
+        category: "Design",
+        defaultSeverity: DiagnosticSeverity.Info,
+        isEnabledByDefault: true,
+        description: LinterCopAnalyzers.GetLocalizableString("Rule0089EventSubscriberTooLargeDescription"),
+        helpLinkUri: "https://github.com/danielekeroth-yellowsolution/BusinessCentral.LinterCop/wiki/YS0089");
 }

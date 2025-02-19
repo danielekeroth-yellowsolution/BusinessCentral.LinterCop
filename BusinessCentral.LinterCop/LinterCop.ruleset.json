@@ -436,6 +436,15 @@
       "id": "LC0087",
       "action": "Warning",
       "justification": "Use IsNullGuid() to check for empty GUID values."
+    },
+    {
+      "id": "LC0088",
+      "action": "Warning",
+      "justification": "Use IsNullGuid() to check for empty GUID values."
+    },    {
+      "id": "LC0089",
+      "action": "Warning",
+      "justification": "Use IsNullGuid() to check for empty GUID values."
     }
   ]
 }
