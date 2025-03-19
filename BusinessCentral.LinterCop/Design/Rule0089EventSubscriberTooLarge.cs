@@ -10,7 +10,7 @@ namespace BusinessCentral.LinterCop.Design;
 public class Rule0089InternalProcedureModifier : DiagnosticAnalyzer
 {
     public override ImmutableArray<DiagnosticDescriptor> SupportedDiagnostics { get; } =
-        ImmutableArray.Create(DiagnosticDescriptors.Rule0088DocumentationCommentRequiredForNavTypes);
+        ImmutableArray.Create(DiagnosticDescriptors.Rule0089EventSubscriberTooLarge);
 
     public override void Initialize(AnalysisContext context) =>
         context.RegisterCodeBlockAction(new Action<CodeBlockAnalysisContext>(this.AnalyzeIdentifiersInEventSubscribers));

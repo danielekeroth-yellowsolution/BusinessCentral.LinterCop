@@ -16,11 +16,8 @@ public class Rule0088InternalProcedureModifier : DiagnosticAnalyzer
             SymbolKind.Page,
             SymbolKind.Query,
             SymbolKind.Table,
-            SymbolKind.Field,
             SymbolKind.Action,
-            SymbolKind.EnumValue,
-            SymbolKind.Control,
-            SymbolKind.Codeunit
+            SymbolKind.EnumValue
         );
 
     private void CheckForMissingCaptions(SymbolAnalysisContext context)
